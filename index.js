@@ -112,6 +112,15 @@ Client.on('messageCreate', message => {
 
             });
         }
+        if (splitMessage[0] === ".carbuhelp") {
+            var reply = "Forme d'une commande : .carbu <code_postal> <carburant>\n";
+            reply += "Carburants possibles : E85, Gazole, E10, SP95, SP98, GPLc";
+            var embed = new Discord.MessageEmbed()
+                        .setDescription(reply);
+            message.channel.send({
+                embeds: [embed]
+            });
+        }
     }
 });
 

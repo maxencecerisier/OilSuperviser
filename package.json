@@ -3,6 +3,8 @@
     "decompress": "^4.2.1",
     "discord.js": "^13.6.0",
     "fs": "^0.0.1-security",
+    "node": "^17.5.0",
+    "nodejs": "0.0.0",
     "xml2js": "^0.4.23"
   }
 }
