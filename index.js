@@ -9,7 +9,7 @@ const path = require("path");
 const timer = ms => new Promise(res => setTimeout(res, ms));
 
 const Discord = require('discord.js');
-const config = require('./config.json');
+const config = require('../config.json');
 const {
     PassThrough
 } = require('stream');
