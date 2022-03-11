@@ -42,7 +42,7 @@ function import_data() {
             }
         }, 5000); // permet de lancer la fonction 5 secondes après la récupération de données
         import_data();
-    }, 1800000); // permet de relancer la fonction toutes les deux minutes
+    }, 1800000); // permet de relancer la fonction toutes les demi-heure
 }
 
 import_data();
